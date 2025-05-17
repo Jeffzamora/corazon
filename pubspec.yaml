@@ -1,0 +1,41 @@
+name: corazon
+description: "MI amor"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+  flutter_launcher_icons: ^0.14.3
+  webview_flutter: ^4.2.2  # Usa la última versión estable
+  youtube_player_flutter: ^8.1.0
+  audioplayers: ^5.2.1
+
+flutter:
+  assets:
+    - assets/icono_corazon.png
+    - assets/love_music.mp3
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icono_corazon.png"
+
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
