@@ -23,20 +23,34 @@ Una aplicación móvil creada con el corazón ❤️ para expresar amor de forma
 
 ---
 
-## 🚀 Instalación
+🚀 Instalación
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/jeffzamoradev/https://github.com/Jeffzamora/corazon.git
-   cd corazon
+Clona este repositorio:
 
+git clone https://github.com/jeffzamoradev/para-mi-amor.git
+cd para-mi-amor
+
+Instala dependencias:
+
+flutter pub get
+
+Ejecuta en modo release:
+
+flutter run --release
+
+🔐 Firma para Google Play
+
+Asegúrate de tener un archivo key.jks y key.properties configurado correctamente para subir tu .aab a Google Play.
+
+flutter build appbundle
 
 💝 Créditos
+
 👨‍💻 Desarrollado por: Jefferson Zamora
 
 💌 Dedicado con amor para: Mayra Bocanegra
 
-📅 Mayo 2025
+🗓️ Mayo 2025
 
 
 ---
